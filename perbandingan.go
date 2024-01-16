@@ -9,6 +9,11 @@ func main() {
 	var result bool = name1 == name2 // == kalau sama true kalau berbeda false
 	fmt.Println(result)
 
-	var value = 1000
-	fmt.Println(value)
+	var value1 = 100
+	var value2 = 200
+
+	fmt.Println(value1 > value2)
+	fmt.Println(value1 < value2)
+	fmt.Println(value1 == value2)
+	fmt.Println(value1 != value2)
 }
