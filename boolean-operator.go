@@ -8,6 +8,7 @@ func main() {
 
 	var lulusNilaiAkhir bool = nilaiAkhir >= 80
 	var lulusAbsensi bool = absensi >= 80
+	
 	fmt.Println(lulusNilaiAkhir)
 	fmt.Println(lulusAbsensi)
 
